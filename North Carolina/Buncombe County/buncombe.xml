@@ -1,0 +1,155 @@
+<!-- Paste into ~/SDRTrunk/playlist/default.xml -->
+<!-- Regenerate via
+$('.rrtable.w1p tr').toArray().map(function(a){return $(a).find('td')[0]? {dec: $(a).find('td')[0].innerText, tag: $(a).find('td')[3].innerText.replace('&','&amp;')} : '';})
+.map(function(a){return !a? undefined : '  <alias list="Buncombe County Talkgroups" color="-13408513" iconName="Dispatcher" name="' + a.tag +'">\n    <id type="talkgroup" protocol="APCO25" value="' + a.dec + '"/>\n  </alias>';}).join('\n')
+-->
+  <alias list="Buncombe County Talkgroups" color="-13408513" iconName="Dispatcher" name="BTAC 3">
+    <id type="talkgroup" protocol="APCO25" value="1013"/>
+  </alias>
+  <alias list="Buncombe County Talkgroups" color="-13408513" iconName="Dispatcher" name="BTAC 4">
+    <id type="talkgroup" protocol="APCO25" value="1014"/>
+  </alias>
+  <alias list="Buncombe County Talkgroups" color="-13408513" iconName="Dispatcher" name="BTAC Disp">
+    <id type="talkgroup" protocol="APCO25" value="1015"/>
+  </alias>
+  <alias list="Buncombe County Talkgroups" color="-13408513" iconName="Dispatcher" name="BTAC 1">
+    <id type="talkgroup" protocol="APCO25" value="1016"/>
+  </alias>
+  <alias list="Buncombe County Talkgroups" color="-13408513" iconName="Dispatcher" name="BTAC 2">
+    <id type="talkgroup" protocol="APCO25" value="1017"/>
+  </alias>
+  <alias list="Buncombe County Talkgroups" color="-13408513" iconName="Dispatcher" name="Asheville Events">
+    <id type="talkgroup" protocol="APCO25" value="1018"/>
+  </alias>
+  <alias list="Buncombe County Talkgroups" color="-13408513" iconName="Dispatcher" name="VIPER Patch">
+    <id type="talkgroup" protocol="APCO25" value="1019"/>
+  </alias>
+  <alias list="Buncombe County Talkgroups" color="-13408513" iconName="Dispatcher" name="BCSO Encrypted">
+    <id type="talkgroup" protocol="APCO25" value="1020"/>
+  </alias>
+  <alias list="Buncombe County Talkgroups" color="-13408513" iconName="Dispatcher" name="BCSO 1 Dispatch">
+    <id type="talkgroup" protocol="APCO25" value="2001"/>
+  </alias>
+  <alias list="Buncombe County Talkgroups" color="-13408513" iconName="Dispatcher" name="BCSO 2 Tac">
+    <id type="talkgroup" protocol="APCO25" value="2002"/>
+  </alias>
+  <alias list="Buncombe County Talkgroups" color="-13408513" iconName="Dispatcher" name="BCSO Encrypted">
+    <id type="talkgroup" protocol="APCO25" value="2003"/>
+  </alias>
+  <alias list="Buncombe County Talkgroups" color="-13408513" iconName="Dispatcher" name="BCSO Records">
+    <id type="talkgroup" protocol="APCO25" value="2004"/>
+  </alias>
+  <alias list="Buncombe County Talkgroups" color="-13408513" iconName="Dispatcher" name="BCSO Jail">
+    <id type="talkgroup" protocol="APCO25" value="2006"/>
+  </alias>
+  <alias list="Buncombe County Talkgroups" color="-13408513" iconName="Dispatcher" name="BCSO Encrypted">
+    <id type="talkgroup" protocol="APCO25" value="2008"/>
+  </alias>
+  <alias list="Buncombe County Talkgroups" color="-13408513" iconName="Dispatcher" name="BCSO Serve">
+    <id type="talkgroup" protocol="APCO25" value="2010"/>
+  </alias>
+  <alias list="Buncombe County Talkgroups" color="-13408513" iconName="Dispatcher" name="BCSO 2011">
+    <id type="talkgroup" protocol="APCO25" value="2011"/>
+  </alias>
+  <alias list="Buncombe County Talkgroups" color="-13408513" iconName="Dispatcher" name="BCSO Encrypted">
+    <id type="talkgroup" protocol="APCO25" value="2019"/>
+  </alias>
+  <alias list="Buncombe County Talkgroups" color="-13408513" iconName="Dispatcher" name="BCSO Encypted">
+    <id type="talkgroup" protocol="APCO25" value="2021"/>
+  </alias>
+  <alias list="Buncombe County Talkgroups" color="-13408513" iconName="Dispatcher" name="BCEMS Dispatch">
+    <id type="talkgroup" protocol="APCO25" value="3001"/>
+  </alias>
+  <alias list="Buncombe County Talkgroups" color="-13408513" iconName="Dispatcher" name="BCEMS Hospital">
+    <id type="talkgroup" protocol="APCO25" value="3003"/>
+  </alias>
+  <alias list="Buncombe County Talkgroups" color="-13408513" iconName="Dispatcher" name="BCEMS Hospital">
+    <id type="talkgroup" protocol="APCO25" value="3004"/>
+  </alias>
+  <alias list="Buncombe County Talkgroups" color="-13408513" iconName="Dispatcher" name="BC Fire Disp">
+    <id type="talkgroup" protocol="APCO25" value="4001"/>
+  </alias>
+  <alias list="Buncombe County Talkgroups" color="-13408513" iconName="Dispatcher" name="BC Fire Alert">
+    <id type="talkgroup" protocol="APCO25" value="4002"/>
+  </alias>
+  <alias list="Buncombe County Talkgroups" color="-13408513" iconName="Dispatcher" name="BC Fire Tac 1">
+    <id type="talkgroup" protocol="APCO25" value="4003"/>
+  </alias>
+  <alias list="Buncombe County Talkgroups" color="-13408513" iconName="Dispatcher" name="BC Fire Tac 2">
+    <id type="talkgroup" protocol="APCO25" value="4004"/>
+  </alias>
+  <alias list="Buncombe County Talkgroups" color="-13408513" iconName="Dispatcher" name="BC Fire Officer">
+    <id type="talkgroup" protocol="APCO25" value="4005"/>
+  </alias>
+  <alias list="Buncombe County Talkgroups" color="-13408513" iconName="Dispatcher" name="Fairview FD">
+    <id type="talkgroup" protocol="APCO25" value="4006"/>
+  </alias>
+  <alias list="Buncombe County Talkgroups" color="-13408513" iconName="Dispatcher" name="BlackMountain FD">
+    <id type="talkgroup" protocol="APCO25" value="4007"/>
+  </alias>
+  <alias list="Buncombe County Talkgroups" color="-13408513" iconName="Dispatcher" name="Swannanoa FD">
+    <id type="talkgroup" protocol="APCO25" value="4008"/>
+  </alias>
+  <alias list="Buncombe County Talkgroups" color="-13408513" iconName="Dispatcher" name="Reynolds FD">
+    <id type="talkgroup" protocol="APCO25" value="4009"/>
+  </alias>
+  <alias list="Buncombe County Talkgroups" color="-13408513" iconName="Dispatcher" name="Riceville FD">
+    <id type="talkgroup" protocol="APCO25" value="4010"/>
+  </alias>
+  <alias list="Buncombe County Talkgroups" color="-13408513" iconName="Dispatcher" name="Skyland FD">
+    <id type="talkgroup" protocol="APCO25" value="4011"/>
+  </alias>
+  <alias list="Buncombe County Talkgroups" color="-13408513" iconName="Dispatcher" name="Broad River FD">
+    <id type="talkgroup" protocol="APCO25" value="4012"/>
+  </alias>
+  <alias list="Buncombe County Talkgroups" color="-13408513" iconName="Dispatcher" name="Garren Creek FD">
+    <id type="talkgroup" protocol="APCO25" value="4013"/>
+  </alias>
+  <alias list="Buncombe County Talkgroups" color="-13408513" iconName="Dispatcher" name="KAVL Fire">
+    <id type="talkgroup" protocol="APCO25" value="4014"/>
+  </alias>
+  <alias list="Buncombe County Talkgroups" color="-13408513" iconName="Dispatcher" name="BC Rescue Squad">
+    <id type="talkgroup" protocol="APCO25" value="4015"/>
+  </alias>
+  <alias list="Buncombe County Talkgroups" color="-13408513" iconName="Dispatcher" name="WBuncombe FD">
+    <id type="talkgroup" protocol="APCO25" value="4016"/>
+  </alias>
+  <alias list="Buncombe County Talkgroups" color="-13408513" iconName="Dispatcher" name="Weaverville FD">
+    <id type="talkgroup" protocol="APCO25" value="4017"/>
+  </alias>
+  <alias list="Buncombe County Talkgroups" color="-13408513" iconName="Dispatcher" name="Enka FD">
+    <id type="talkgroup" protocol="APCO25" value="4018"/>
+  </alias>
+  <alias list="Buncombe County Talkgroups" color="-13408513" iconName="Dispatcher" name="Upper Hominy FD">
+    <id type="talkgroup" protocol="APCO25" value="4019"/>
+  </alias>
+  <alias list="Buncombe County Talkgroups" color="-13408513" iconName="Dispatcher" name="Reems Creek FD">
+    <id type="talkgroup" protocol="APCO25" value="4020"/>
+  </alias>
+  <alias list="Buncombe County Talkgroups" color="-13408513" iconName="Dispatcher" name="Barnardsville FD">
+    <id type="talkgroup" protocol="APCO25" value="4021"/>
+  </alias>
+  <alias list="Buncombe County Talkgroups" color="-13408513" iconName="Dispatcher" name="Jupiter FD">
+    <id type="talkgroup" protocol="APCO25" value="4022"/>
+  </alias>
+  <alias list="Buncombe County Talkgroups" color="-13408513" iconName="Dispatcher" name="Leicester FD">
+    <id type="talkgroup" protocol="APCO25" value="4023"/>
+  </alias>
+  <alias list="Buncombe County Talkgroups" color="-13408513" iconName="Dispatcher" name="French Broad FD">
+    <id type="talkgroup" protocol="APCO25" value="4024"/>
+  </alias>
+  <alias list="Buncombe County Talkgroups" color="-13408513" iconName="Dispatcher" name="Woodfin FD">
+    <id type="talkgroup" protocol="APCO25" value="4025"/>
+  </alias>
+  <alias list="Buncombe County Talkgroups" color="-13408513" iconName="Dispatcher" name="BC Fire Tac 3">
+    <id type="talkgroup" protocol="APCO25" value="4031"/>
+  </alias>
+  <alias list="Buncombe County Talkgroups" color="-13408513" iconName="Dispatcher" name="BC Fire Tac 4">
+    <id type="talkgroup" protocol="APCO25" value="4032"/>
+  </alias>
+  <alias list="Buncombe County Talkgroups" color="-13408513" iconName="Dispatcher" name="BC Fire Tac 5">
+    <id type="talkgroup" protocol="APCO25" value="4033"/>
+  </alias>
+  <alias list="Buncombe County Talkgroups" color="-13408513" iconName="Dispatcher" name="BC Fire Med">
+    <id type="talkgroup" protocol="APCO25" value="4034"/>
+  </alias>
